@@ -1,0 +1,25 @@
+:root {
+  --lilas: #f8f5ff;
+  --roxo: #845ef7;
+  --roxo-escuro: #5a27f2;
+  --preto: #000000;
+  --gelo: #fafafa;
+  --branco: #ffffff;
+  --azul-marinho: #30373e;
+  --cinza: #adb5bd;
+}
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
