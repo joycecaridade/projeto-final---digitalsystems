@@ -1,323 +1,317 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title># Projeto Final -- designsystems</title>
-  </head>
-  <body>
-    <header id="header">
-      <button class="header__hamburguer">
-        <img src="./assets/header/burguer-menu.png" alt="hamburguer menu" />
-      </button>
-      <div class="header__logo-nav">
-        <button class="header__logo">
-          <img
-            src="./assets/header/header-logo.png"
-            alt="digital systems logo"
-          />
-        </button>
 
-        <nav class="header-nav__links">
-          <a href="#">Sobre nós</a>
-          <a href="#">Como trabalhamos</a>
-          <a href="#">Vantagens</a>
-          <a href="#">Serviços</a>
-          <a href="#">Contatos</a>
-        </nav>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title># Projeto Final -- designsystems</title>
+</head>
 
-      <button class="header__search">
-        <img src="./assets/header/search.png" alt="Lupa de barra de pesquisa" />
-      </button>
-    </header>
+<body>
+  <header>
+    <img src="./assets/header/Burguer-menu.png" alt="menu hamburguer" class="header__hamburguer" />
 
-    <main id="main">
-      <div class="banner">
-        <h1 class="title">Projetos de alta complexidade</h1>
-        <p class="text p-banner">
+    <img src="./assets/Logo.png" alt="logo DesignSystems" class="header__logo" />
+
+    <nav class="header__nav">
+      <ul class="nav__list">
+        <li class="nav__list__item"><a href="#">Sobre nós</a></li>
+        <li class="nav__list__item"><a href="#">Como trabalhamos</a></li>
+        <li class="nav__list__item"><a href="#">Vantagens</a></li>
+        <li class="nav__list__item"><a href="#">Serviços</a></li>
+        <li class="nav__list__item"><a href="#">Contatos</a></li>
+      </ul>
+    </nav>
+
+    <img src="./assets/header/search.png" alt="lupa para barra de pesquisa" class="header__search" />
+  </header>
+
+  <main>
+    <section class="banner">
+      <img src="./assets/banner/banner-img.png" alt="parte inferior de uma sacada de um prédio" class="banner__img" />
+      <div class="banner__text">
+        <h1 class="titulo">Projetos de alta complexidade</h1>
+        <p class="paragrafo">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
-
-        <button class="banner__btn">Fazer o cálculo</button>
+        <button>Fazer o cálculo</button>
       </div>
+    </section>
 
-      <section class="sobre">
-        <h2 class="title title-sobre card-4">Sobre nós</h2>
-        <p class="text p-sobre">
+    <section class="sobre">
+      <h2 class="titulo">Sobre nós</h2>
+      <div class="sobre__cards">
+        <div class="sobre__cards__item">
+          <p class="paragrafo">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.
+          </p>
+        </div>
+
+        <div class="sobre__cards__item">
+          <img src="./assets/sobre/sobre-img.png" alt="trabalhadores conversando em um canteiro de obras"
+            class="sobre__img" />
+          <div class="cards__text">
+            <p class="paragrafo">
+              <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </strong>
+            </p>
+            <button>Mais</button>
+          </div>
+        </div>
+        <div class="sobre__cards__item">
+          <img src="./assets/sobre/pacote.svg" alt="pacote" />
+          <div class="cards__text">
+            <span><strong>Consultoria de arquitetura e decoração</strong></span>
+            <p class="paragrafo">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+
+          <div class="sobre__cards__item">
+            <img src="./assets/sobre/engrenagens.svg" alt="engrenagens" />
+            <div class="cards__text">
+              <span><strong>Serviço Arquiteto</strong></span>
+              <p class="paragrafo">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trabalho">
+      <h2 class="titulo">Como trabalhamos</h2>
+      <div class="trabalho__text">
+        <span><strong>Realizamos uma consulta</strong></span>
+        <p class="paragrafo">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet,
           consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
           labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
 
-        <div class="sobre-cards">
-          <div class="sobre-cards__item-1 sobre-banner">
-            <img
-              src="./assets/sobre/sobre-img.png"
-              alt="dois homens conversando em um canteiro de obras"
-            />
-            <div class="sobre-cards__text">
-              <p class="p_sobre-cards">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                <button class="sobre-btn">Mais</button>
-              </p>
-            </div>
-          </div>
-
-          <div class="sobre-cards__item-2">
-            <img src="./assets/sobre/pacote.svg" alt="pacote" />
-            <div class="sobre-cards__text">
-              <h4 class="title sobre-card-title">Serviço Arquiteto</h4>
-              <p class="text p-sobre-card">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </div>
-          </div>
-
-          <div class="sobre-cards__item-3">
-            <img src="./assets/sobre/engrenagem.svg" alt="engrenagens" />
-            <div class="sobre-cards__text">
-              <h4 class="title sobre-card-title">
-                Consultoria de arquitetura e decoração
-              </h4>
-              <p class="text p-sobre-card">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </div>
-          </div>
+        <div class="trabalho__btn">
+          <button class="btn__item1">Mais</button>
+          <button class="btn__item2">Contrate-nos</button>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="trabalho">
-        <h2 class="title">Como trabalhamos</h2>
-        <img src="./assets/trabalho/trabalho-img.png" alt="" />
-        <div class="trabalho_text-content">
-          <h4 class="title">Realizamos uma consulta</h4>
-          <p class="p_trabalho">
+    <section class="vantagens">
+      <h2 class="titulo">Vantagens</h2>
+      <div class="vantagens__cards">
+        <div class="vantagens__cards__item card1">
+          <img src="./assets/vantagens/web.png" alt="Web3" />
+          <p class="paragrafo">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-          <p class="trabalho_btn">
-            <button class="btn__item1">Mais</button>
-            <button class="btn__item2">Contrate-nos</button>
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat.
           </p>
         </div>
-      </section>
+        <div class="vantagens__cards__item card2">
+          <img src="./assets/vantagens/planilha.png" alt="Planilha" />
+          <p class="paragrafo">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+        <div class="vantagens__cards__item card3">
+          <img src="./assets/vantagens/tempo.png" alt="Tempo" />
+          <p class="paragrafo">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor
+          </p>
+        </div>
+        <div class="vantagens__cards__item card4">
+          <img src="./assets/vantagens/mapa.png" alt="Mapa" />
+          <p class="paragrafo">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+        <div class="vantagens__cards__item card5">
+          <img src="./assets/vantagens/aviao.png" alt="Avião" />
+          <p class="paragrafo">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+        <div class="vantagens__cards__item card6">
+          <img src="./assets/vantagens/prazo.png" alt="Prazo" />
+          <p class="paragrafo">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi
+          </p>
+        </div>
+        <div class="vantagens__cards__item card7">
+          <img src="./assets/vantagens/conexao.png" alt="Conexão" />
+          <p class="paragrafo">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </div>
+    </section>
 
-      <section class="vantagens">
-        <h2 class="title">Vantagens</h2>
-        <div class="vantagens-cards">
-          <div class="vantagens-cards__item card1">
-            <img src="./assets/vantagens/web3.png" alt="internet" />
-            <p class="p_vantagens">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+    <section class="servicos">
+      <div class="servicos__cards">
+        <div class="servicos__cards__item">
+          <img src="./assets/servicos/servicos1.png" alt="" />
+          <div class="servicos__text">
+            <p class="paragrafo servicos__texto__card">
+              Lorem ipsum
+              <button>
+                <img src="./assets/Seta.png" alt="seta" class="servicos__seta" />
+              </button>
             </p>
-          </div>
-          <div class="vantagens-cards__item card2">
-            <img src="./assets/vantagens/planilha.png" alt="planilha" />
-            <p class="p_vantagens">
+            <p class="paragrafo">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
           </div>
-          <div class="vantagens-cards__item card3">
-            <img src="./assets/vantagens/tempo.png" alt="tempo" />
-            <p class="p_vantagens">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor
+        </div>
+
+        <div class="servicos__cards__item">
+          <img src="./assets/servicos/servicos2.png" alt="" />
+          <div class="servicos__text">
+            <p class="paragrafo servicos__texto__card">
+              Lorem ipsum
+              <button>
+                <img src="./assets/Seta.png" alt="seta" class="servicos__seta" />
+              </button>
             </p>
-          </div>
-          <div class="vantagens-cards__item card4">
-            <img src="./assets/vantagens/mapa.png" alt="mapa" />
-            <p class="p_vantagens">
+            <p class="paragrafo">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
           </div>
-          <div class="vantagens-cards__item card5">
-            <img src="./assets/vantagens/aviao.png" alt="aviao" />
-            <p class="p_vantagens">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+        </div>
+
+        <div class="servicos__cards__item">
+          <img src="./assets/servicos/servicos3.png" alt="" />
+          <div class="servicos__text">
+            <p class="paragrafo servicos__texto__card">
+              Lorem ipsum
+              <button>
+                <img src="./assets/Seta.png" alt="seta" class="servicos__seta" />
+              </button>
             </p>
-          </div>
-          <div class="vantagens-cards__item card5">
-            <img src="./assets/vantagens/checklist.png" alt="checklist" />
-            <p class="p_vantagens">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi
-            </p>
-          </div>
-          <div class="vantagens-cards__item card7">
-            <img src="./assets/vantagens/conexao.png" alt="conexao" />
-            <p class="p_vantagens">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+            <p class="paragrafo">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
           </div>
         </div>
-      </section>
 
-      <section class="servicos">
-        <h1 class="title">Serviços</h1>
-        <div class="servicos-cards">
-          <div class="servicos-cards-item card-item1">
-            <img src="./assets/servicos/servicos-img-1.png" alt="" />
-            <div class="servicos-text-content">
-              <p class="p_servicos">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                <button class="p_servicos-btn">
-                  <img src="./assets/servicos/seta.png" alt="seta" />
-                </button>
-              </p>
-            </div>
+        <div class="servicos__cards__item">
+          <img src="./assets/servicos/servicos4.png" alt="" />
+          <div class="servicos__text">
+            <p class="paragrafo servicos__texto__card">
+              Lorem ipsum
+              <button>
+                <img src="./assets/Seta.png" alt="seta" class="servicos__seta" />
+              </button>
+            </p>
+            <p class="paragrafo">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
           </div>
+        </div>
 
-          <div class="servicos-cards-item card-item2">
-            <img src="./assets/servicos/servicos-img-2.png" alt="" />
-            <div class="servicos-text-content">
-              <p class="p_servicos">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                <button class="p_servicos-btn">
-                  <img src="./assets/servicos/seta.png" alt="seta" />
-                </button>
-              </p>
-            </div>
+        <div class="servicos__cards__item">
+          <img src="./assets/servicos/servicos5.png" alt="" />
+          <div class="servicos__text">
+            <p class="paragrafo servicos__texto__card">
+              Lorem ipsum
+              <button>
+                <img src="./assets/Seta.png" alt="seta" class="servicos__seta" />
+              </button>
+            </p>
+            <p class="paragrafo">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
           </div>
+        </div>
 
-          <div class="servicos-cards-item card-item3">
-            <img src="./assets/servicos/servicos-img-3.png" alt="" />
-            <div class="servicos-text-content">
-              <p class="p_servicos">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                <button class="p_servicos-btn">
-                  <img src="./assets/servicos/seta.png" alt="seta" />
-                </button>
-              </p>
-            </div>
+        <div class="servicos__cards__item">
+          <img src="./assets/servicos/servicos6.png" alt="" />
+          <div class="servicos__text">
+            <p class="paragrafo servicos__texto__card">
+              Lorem ipsum
+              <button>
+                <img src="./assets/Seta.png" alt="seta" class="servicos__seta" />
+              </button>
+            </p>
+            <p class="paragrafo">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
           </div>
-
-          <div class="servicos-cards-item card-item4">
-            <img src="./assets/servicos/servicos-img-4.png" alt="" />
-            <div class="servicos-text-content">
-              <p class="p_servicos">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                <button class="p_servicos-btn">
-                  <img src="./assets/servicos/seta.png" alt="seta" />
-                </button>
-              </p>
-            </div>
-          </div>
-
-          <div class="servicos-cards-item card-item5">
-            <img src="./assets/servicos/servicos-img-5.png" alt="" />
-            <div class="servicos-text-content">
-              <p class="p_servicos">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                <button class="p_servicos-btn">
-                  <img src="./assets/servicos/seta.png" alt="seta" />
-                </button>
-              </p>
-            </div>
-          </div>
-
-          <div class="servicos-cards-item card-item6">
-            <img src="./assets/servicos/servicos-img-6.png" alt="" />
-            <div class="servicos-text-content">
-              <p class="p_servicos">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                <button class="p_servicos-btn">
-                  <img src="./assets/servicos/seta.png" alt="seta" />
-                </button>
-              </p>
-            </div>
-          </div>
-      </section>
-    </main>
-
-    <footer id="footer">
-      <h2 class="title">Envie sua aplicação</h2>
-      <form class="footer__form">
-        <input type="submit" name="nome" placeholder="*Name" />
-
-        <label for="cidade"> Cidade </label>
-        <select name="cidade" id="cidade">
-          <option disabled></option>
-        </select>
-
-        <input type="date" data-date-format="DD MMMM YYYY" value="2021-10-18" />
-
-        <input type="email" name="email" placeholder="Email*" />
-
-        <input type="text" />
-
-        <label for="form-checkbox"
-          >Concordo com a Política de privacidade</label
-        >
-        <input type="checkbox" name="checkbox" />
-
-        <input type="button" value="Concluir" />
-      </form>
-
-      <div class="footer__text-content">
-        <p class="p_footer">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua.
-        </p>
-      </div>
-
-      <div class="footer__links">
-        <button class="footer-logo">
-          <img src="./assets/footer/footer-logo.png" alt="designsystems logo" />
-        </button>
-
-        <nav class="footer__nav-links">
-          <a href="#">Sobre nós</a>
-          <a href="#">Como trabalhamos</a>
-          <a href="#">Vantagens</a>
-          <a href="#">Serviços</a>
-          <a href="#">Contatos</a>
-        </nav>
-
-        <div class="footer__sm">
-          <a href="#" class="footer__sm insta">
-            <img src="./assets/footer/instagram.png" alt="instagram" />
-          </a>
-          <a href="#" class="footer__sm face">
-            <img src="./assets/footer/facebook.png" alt="facebook" />
-          </a>
         </div>
       </div>
-    </footer>
-  </body>
+    </section>
+  </main>
+
+  <footer>
+    <form class="footer__form f-item1">
+      <h2 class="titulo">Envie sua aplicação</h2>
+      <input type="text" name="noome" id="nome" placeholder="Nome*" />
+      <select name="cidade" id="cidade">
+        <option disabled="disabled">Cidade</option>
+      </select>
+      <input type="date" name="data" id="data" />
+      <input type="email" name="email" id="email" placeholder="Email*" />
+      <input type="checkbox" name="checkbox" id="checkbox" />
+      <label for="checkbox">Concordo com a Política de privacidade</label>
+    </form>
+
+    <p class="paragrafo f-item2">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing
+      elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+
+    <div class="footer-info f-item3">
+      <img src="./assets/Logo.png" alt="logo DesignSystems" class="footer__logo" />
+      <nav class="footer__nav">
+        <ul class="footer__nav__list">
+          <li class="footer__nav__item"><a href="#">Sobre nós</a></li>
+          <li class="footer__nav__item"><a href="#">Como trabalhamos</a></li>
+          <li class="footer__nav__item"><a href="#">Serviços</a></li>
+          <li class="footer__nav__item"><a href="#">Contatos</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__socialmedia">
+        <img src="./assets/footer/instagram.png" alt="instagram logo" class="instagram" />
+        <img src="./assets/footer/facebook.png" alt="facebook logo" class="facebook" />
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
